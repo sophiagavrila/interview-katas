@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static com.revature.solutions.TwoSumKata.twoSum;
+import static com.revature.challenges.TwoSumKata.twoSum;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TwoSumKataTest {
