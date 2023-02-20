@@ -1,6 +1,6 @@
 package com.revature.solutions;
 
-public class StringKata {
+public class ReverseStringKata {
 
     /**
      * Write a Java method reverseWords(String sentence) that takes a sentence as input

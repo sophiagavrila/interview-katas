@@ -2,10 +2,10 @@ package com.revature.challenges;
 
 import org.junit.jupiter.api.Test;
 
-import static com.revature.challenges.ArtihmeticArrayKata.findMissingNumber;
+import static com.revature.challenges.ArithmeticArrayKata.findMissingNumber;
 import static org.junit.jupiter.api.Assertions.*;
 
-class ArtihmeticArrayKataTest {
+class ArithmeticArrayKataTest {
 
     @Test
     public void testFindMissingNumberUnordered1() {

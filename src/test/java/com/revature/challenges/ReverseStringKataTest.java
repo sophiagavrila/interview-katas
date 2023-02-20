@@ -2,10 +2,10 @@ package com.revature.challenges;
 
 import org.junit.jupiter.api.Test;
 
-import static com.revature.challenges.StringKata.reverseWords;
+import static com.revature.challenges.ReverseStringKata.reverseWords;
 import static org.junit.jupiter.api.Assertions.*;
 
-class StringKataTest {
+class ReverseStringKataTest {
 
     @Test
     public void testReverseWords1() {

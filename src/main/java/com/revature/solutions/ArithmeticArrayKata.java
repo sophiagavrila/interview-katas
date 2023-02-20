@@ -1,6 +1,6 @@
 package com.revature.solutions;
 
-public class ArtihmeticArrayKata {
+public class ArithmeticArrayKata {
 
     /**
      * Write a Java method findMissingNumber(int[] arr) that takes an array of n-1 integers, where
