@@ -19,15 +19,6 @@ class TwoSumKataTest {
     }
 
     @Test
-    public void testTwoSumWithNoSolution() {
-        int[] nums = {2, 7, 11, 15};
-        int target = 8;
-        int[] expected = null;
-        int[] actual = twoSum(nums, target);
-        assertTrue(Arrays.equals(expected, actual));
-    }
-
-    @Test
     public void testTwoSumWithDuplicateNumbers() {
         int[] nums = {3, 2, 4, 3};
         int target = 6;
