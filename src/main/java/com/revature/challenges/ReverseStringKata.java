@@ -1,5 +1,7 @@
 package com.revature.challenges;
 
+import java.util.Arrays;
+
 public class ReverseStringKata {
 
     /**
@@ -14,7 +16,15 @@ public class ReverseStringKata {
      */
 
     public static String reverseWords(String sentence) {
+        StringBuilder outString = new StringBuilder();
+        String[] sArray = sentence.split(" ");
+
+        for (String s : sArray) {
+            String reversedString = new StringBuilder(s).reverse().toString();
+            outString.append(reversedString).append(" ");
+        }
+
         // your code here
-        return null;
+        return outString.toString().trim();
     }
 }

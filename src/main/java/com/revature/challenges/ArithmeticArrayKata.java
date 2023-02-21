@@ -1,5 +1,9 @@
 package com.revature.challenges;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 public class ArithmeticArrayKata {
 
     /**
@@ -15,7 +19,22 @@ public class ArithmeticArrayKata {
 
     public static int findMissingNumber(int[] arr) {
         // your code here
-        return 0;
+        Set<Integer> mySet = new HashSet<>();
+        for (int i =0; i<arr.length; i++) {
+            mySet.add(arr[i]);
+        }
+
+        for (int i =1; i<arr.length+2; i++) {
+            if (mySet.add(i)) {
+                System.out.println("adding "+i);
+                return i;
+            }
+            if (!mySet.add(i)) {
+                System.out.println("Not adding "+i);
+            }
+        }
+        return -1;
+
     }
 
 
