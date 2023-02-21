@@ -6,7 +6,7 @@ public class SecondLargestNumberKata {
 
     /**
      * Write a Java method that takes in a list of integers and returns the second
-     * largest integer in the list.  The list may or may not have duplicates.
+     * largest integer in the list.  The list may have duplicates.
      *
      * If the list is empty or contains only one element, the method should return -1.
      *
