@@ -2,7 +2,7 @@ package com.revature.challenges;
 
 import org.junit.jupiter.api.Test;
 
-import static com.revature.solutions.BinarySearchKata.chop;
+import static com.revature.challenges.BinarySearchKata.chop;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BinarySearchKataTest {

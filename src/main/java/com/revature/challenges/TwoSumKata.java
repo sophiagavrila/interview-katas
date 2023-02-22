@@ -1,5 +1,7 @@
 package com.revature.challenges;
 
+import java.util.*;
+
 public class TwoSumKata {
 
     /**

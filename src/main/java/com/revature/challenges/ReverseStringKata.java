@@ -16,15 +16,7 @@ public class ReverseStringKata {
      */
 
     public static String reverseWords(String sentence) {
-        StringBuilder outString = new StringBuilder();
-        String[] sArray = sentence.split(" ");
-
-        for (String s : sArray) {
-            String reversedString = new StringBuilder(s).reverse().toString();
-            outString.append(reversedString).append(" ");
-        }
-
         // your code here
-        return outString.toString().trim();
+        return null;
     }
 }

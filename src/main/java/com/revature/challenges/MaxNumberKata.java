@@ -11,15 +11,7 @@ public class MaxNumberKata {
      */
     public static int findMax(int[] arr) {
         // your code here
-        if(arr.length==0) return -1;
-
-        int maximum = Integer.MIN_VALUE;
-        for (int i : arr) {
-            if (i>maximum){
-                maximum = i;
-            }
-        }
-        return maximum;
+        return 0;
     }
 
 }

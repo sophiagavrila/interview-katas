@@ -1,6 +1,7 @@
 package com.revature.challenges;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class UniqueWordsKata {
 
@@ -14,7 +15,7 @@ public class UniqueWordsKata {
      * appears more than once in the original list.
      */
     public static List<String> filterUniqueWords(List<String> words) {
-        // Your code here
+        // your code here
         return null;
     }
 

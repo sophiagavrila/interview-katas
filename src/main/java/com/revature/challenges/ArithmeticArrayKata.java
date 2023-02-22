@@ -19,22 +19,7 @@ public class ArithmeticArrayKata {
 
     public static int findMissingNumber(int[] arr) {
         // your code here
-        Set<Integer> mySet = new HashSet<>();
-        for (int i =0; i<arr.length; i++) {
-            mySet.add(arr[i]);
-        }
-
-        for (int i =1; i<arr.length+2; i++) {
-            if (mySet.add(i)) {
-                System.out.println("adding "+i);
-                return i;
-            }
-            if (!mySet.add(i)) {
-                System.out.println("Not adding "+i);
-            }
-        }
-        return -1;
-
+        return 0;
     }
 
 
